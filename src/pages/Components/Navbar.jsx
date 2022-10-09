@@ -7,27 +7,27 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 export default function Navbar() {
   return (
     <div className='nav-container' >
-        <div className='wrapper'>
-            <div className="left">
-                <div className="language">
+        <div className='nav-wrapper'>
+            <div className="nav-left">
+                <div className="nav-language">
                     EN
                 </div>
-                <div className="search-container">
-                    <input className='input' type="text" />
+                <div className="nav-search-container">
+                    <input className='nav-input' type="text" />
                     <SearchIcon style={{color:"gray", fontSize:"16px"}}/>
                 </div>
             </div>
-            <div className="center">
-                <h1 className="logo">OMA.</h1>
+            <div className="nav-center">
+                <h1 className="nav-logo">OMA.</h1>
             </div>
-              <div className="right">
-              <div className="menu-item">
+              <div className="nav-right">
+              <div className="nav-menu-item">
                 REGISTER
               </div>
-              <div className="menu-item">
+              <div className="nav-menu-item">
                 SIGN IN
               </div>
-                <div className="menu-item">
+                <div className="nav-menu-item">
                 <Badge badgeContent={4} color="primary">
                     <ShoppingCartIcon/>
                 </Badge>
